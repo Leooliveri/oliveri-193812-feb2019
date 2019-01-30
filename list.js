@@ -1,7 +1,7 @@
 function list(x,y) {
     if (x<y) {
-        while(x<=y) {
-            x=x+1;
+        for (i=x;i<=y;i++) {
+            console.log(i);
         }
     }
     else {
